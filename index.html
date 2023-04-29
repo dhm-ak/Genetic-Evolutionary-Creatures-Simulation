@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <meta charset="UTF-8">
+     
+    
+    </head>
+    <body>
+      <header>
+      
+        <header>
+		
+          <a href="/Portfolio/porfolio.html">Back To My Portfolio</a>
+          
+        
+        </header>
+        
+
+      </header>
+    <title>Genetic Evolutionary Creatures Simulation</title>
+    <link rel="stylesheet" type="text/css" href="genetic_growth.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Genetic Evolutionary Creatures Simulation</h1>
+      <canvas id="canvas"></canvas>
+      <p></p>
+      <button id="startBtn">Start Simulation</button>
+      
+         
+
+
+    <script src="gentic_growth.js"></script>
+  </body>
+  <body1>
+    <h2>What Is It?</h2>
+    
+    <p>The simulation is a genetic evolutionary creature simulation that generates and displays different types of creatures on a canvas element in the web page. The simulation starts with an initial population of randomly generated creatures, each with its own set of characteristics such as size, color, speed, and strength.</p>
+    <p>The simulation then evaluates each creature's fitness based on its speed and strength, and uses a selection and reproduction function to select the fittest individuals and generate offspring with their characteristics. These offspring are then added to the population and the process repeats, with subsequent generations exhibiting traits that are more fit for survival in the environment.
+    
+    </p>
+    <p>The creatures are displayed on the canvas element as colored circles with varying sizes, depending on their size characteristic. The simulation loop continuously updates the population and redraws the creatures on the canvas to display the evolution of the population over time.</p>
+    <div id="table-container"></div>
+    <div id="colorTable"></div>
+
+
+  </body1>
+  <body>
+    <h2>The Math behind the life-form</h2>
+<p>Let N(t) be the number of creatures at time t, where t represents the number of generations. Assuming a fixed population size of 50, the population at time t+1 is determined by selecting the fittest half of the population at time t and breeding them randomly to produce the remaining population. The fitness of a creature is defined as the sum of its speed and strength.
+
+  Then, we can define a discrete-time dynamical system as follows:
+  
+  N(t+1) = N(t)/2 + F(N(t)/2)
+  
+  where F(N(t)/2) represents the number of offspring produced by breeding the fittest half of the population at time t, which is equal to N(t)/2 in this case.
+  
+  This system can be analyzed mathematically to study the long-term behavior of the population, such as whether it converges to a fixed point or exhibits periodic or chaotic dynamics. It can also be used to optimize the population size or breeding strategy for a given fitness function.</p>
+  </body>
+</html>

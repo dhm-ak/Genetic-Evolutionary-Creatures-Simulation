@@ -1,0 +1,125 @@
+#container {
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+button {
+  margin-top: 20px;
+}
+
+/* Style for the creatures */
+.creature {
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* Example styles for different types of creatures */
+.small {
+  width: 2.5px;
+  height: 2.5px;
+}
+
+.medium {
+  width: 5px;
+  height: 5px;
+}
+
+.large {
+  width: 7.5px;
+  height: 7.5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+/* Additional styles for the canvas */
+canvas {
+  position: relative;
+}
+
+/* Style for the simulation container */
+.simulation-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the statistics container */
+.statistics-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Style for the statistics items */
+.statistics-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the statistics label */
+.statistics-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+header {
+	background-color: rgb(202, 185, 185);
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  header a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+  }
+  
+  header a:hover {
+	text-decoration: underline;
+  }
+  #colorTable {
+    margin-top: 20px;
+  }
+  
+  #colorTable table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #colorTable th, #colorTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #colorTable th {
+    background-color: #ddd;
+  }
+  
+  #colorTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #colorTable tr:hover {
+    background-color: #ddd;
+  }
+  
